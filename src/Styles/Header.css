@@ -1,0 +1,27 @@
+.carousel-item > img {
+  width: 100%;
+}
+
+.navbar-logo {
+  max-height: 60px;
+
+  /* margin-right: 40px; */
+}
+
+/* .max-navbar-height {
+  max-height: 80px; 
+} */
+
+.mynav {
+  /* margin-left: 45%; */
+  /* padding: 10px; */
+  font-weight: 600;
+}
+
+.nav-link {
+  margin-right: 18px;
+}
+
+.hover-dropdown:hover .dropdown-menu {
+  display: block;
+}

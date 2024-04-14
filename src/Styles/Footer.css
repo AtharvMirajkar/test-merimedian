@@ -1,0 +1,9 @@
+.footer .text-muted {
+  color: white !important;
+  font-weight: 400;
+  /* margin-right: 20px; */
+}
+
+.social-link:hover svg {
+  color: rgb(56, 119, 255);
+}

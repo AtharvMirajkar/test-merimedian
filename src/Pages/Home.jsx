@@ -1,5 +1,6 @@
 import React, { useEffect } from "react";
 import Slider from "../components/Slider";
+import Achievements from "../components/Achievements";
 
 const Home = () => {
   useEffect(() => {
@@ -8,6 +9,7 @@ const Home = () => {
   return (
     <div>
       <Slider></Slider>
+      <Achievements />
     </div>
   );
 };

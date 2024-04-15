@@ -12,10 +12,10 @@ const Footer = () => {
     <footer className="footer bg-dark py-4">
       <div className="container">
         <div className="row align-items-center justify-content-center">
-          <div className="col-auto">
+          <div className="col-md-auto mb-3 mb-md-0">
             <span className="text-white">Follow us:</span>
           </div>
-          <div className="col-auto">
+          <div className="col-md-auto mb-3 mb-md-0">
             <div className="social-links">
               <a
                 href="https://www.instagram.com/your_instagram_profile"
@@ -43,7 +43,7 @@ const Footer = () => {
               </a>
             </div>
           </div>
-          <div className="col-auto">
+          <div className="col-md-auto">
             <p className="text-muted mb-0">
               Merimedian Medicare Pvt. Ltd. © All Rights Reserved 2024
             </p>

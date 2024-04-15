@@ -4,7 +4,7 @@ import React from "react";
 const Achievements = () => {
   return (
     <div className="container">
-      <h2 className="mt-4 mb-3">Company Achievements</h2>
+      <h2 className="mt-4 mb-3 text-center">Company Achievements</h2>
       <div className="row row-cols-1 row-cols-md-2 g-4">
         {/* Achievement 1 */}
         <div className="col">

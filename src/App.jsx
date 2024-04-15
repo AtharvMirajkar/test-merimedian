@@ -8,6 +8,7 @@ import Contact from "./Pages/Contact";
 import Footer from "./components/Footer";
 import Products from "./Pages/Products";
 import Career from "./Pages/Career";
+import Clients from "./components/Clients";
 
 const App = () => {
   return (
@@ -26,6 +27,8 @@ const App = () => {
             path="/products/productA"
             element={<Products selectedProduct="Product A" />}
           ></Route>
+
+          <Route path="/Manufacturing/Clients" element={<Clients />} />
         </Routes>
 
         <Footer />

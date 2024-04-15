@@ -26,6 +26,7 @@ function Header(args) {
 
   // Function to handle navigation away from the "Products" page
   const handleNavigation = () => {
+    setIsOpen(false); // Close the navbar
     setSelectedProduct(null);
   };
 

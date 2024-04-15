@@ -114,6 +114,7 @@ function Header(args) {
                     Marketing in India
                   </Link>
                 </DropdownItem>
+                <DropdownItem divider />
                 <DropdownItem>
                   <Link
                     className="dropdown-item"
@@ -123,6 +124,7 @@ function Header(args) {
                     Exports
                   </Link>
                 </DropdownItem>
+                <DropdownItem divider />
                 <DropdownItem>
                   <Link
                     className="dropdown-item"
@@ -148,6 +150,7 @@ function Header(args) {
                     Overview
                   </Link>
                 </DropdownItem>
+                <DropdownItem divider />
                 <DropdownItem>
                   <Link
                     className="dropdown-item"
@@ -157,6 +160,7 @@ function Header(args) {
                     Suppositories
                   </Link>
                 </DropdownItem>
+                <DropdownItem divider />
                 <DropdownItem>
                   <Link
                     className="dropdown-item"
@@ -166,6 +170,7 @@ function Header(args) {
                     Quality Focus
                   </Link>
                 </DropdownItem>
+                <DropdownItem divider />
                 <DropdownItem>
                   <Link
                     className="dropdown-item"
@@ -175,6 +180,7 @@ function Header(args) {
                     Formulation & Development
                   </Link>
                 </DropdownItem>
+                <DropdownItem divider />
                 <DropdownItem>
                   <Link
                     className="dropdown-item"
@@ -184,6 +190,7 @@ function Header(args) {
                     Accreditations
                   </Link>
                 </DropdownItem>
+                <DropdownItem divider />
                 <DropdownItem>
                   <Link
                     className="dropdown-item"

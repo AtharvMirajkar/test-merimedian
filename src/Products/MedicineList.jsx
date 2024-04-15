@@ -1,12 +1,12 @@
 import React from "react";
-import { Row, Col } from "reactstrap";
 import MedicineItem from "../components/MedicineItem";
+import product1 from "../assets/medicine1.jpg";
 
 function MedicineList({ selectedProduct }) {
   const allMedicines = [
     {
       product: "Product A",
-      imageSrc: "src/assets/medicine1.jpg",
+      imageSrc: product1,
       description: (
         <div>
           <h3>Dipodem Tablets</h3>

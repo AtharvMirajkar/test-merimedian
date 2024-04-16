@@ -9,6 +9,7 @@ import Footer from "./components/Footer";
 import Products from "./Pages/Products";
 import Career from "./Pages/Career";
 import Clients from "./components/Clients";
+import Overview from "./components/Overview";
 
 const App = () => {
   return (
@@ -29,6 +30,7 @@ const App = () => {
           ></Route>
 
           <Route path="/Manufacturing/Clients" element={<Clients />} />
+          <Route path="/About/Overview" element={<Overview />} />
         </Routes>
 
         <Footer />

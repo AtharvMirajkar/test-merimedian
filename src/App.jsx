@@ -10,6 +10,7 @@ import Products from "./Pages/Products";
 import Career from "./Pages/Career";
 import Clients from "./components/Clients";
 import Overview from "./components/Overview";
+import GeneralEnquiryForm from "./components/GeneralEnquiryForm";
 
 const App = () => {
   return (
@@ -23,6 +24,10 @@ const App = () => {
           <Route path="/contact" element={<Contact />}></Route>
           <Route path="/products" element={<Products />}></Route>
           <Route path="/Careers" element={<Career />}></Route>
+          <Route
+            path="/general-enquiry"
+            element={<GeneralEnquiryForm />}
+          ></Route>
 
           <Route
             path="/products/productA"

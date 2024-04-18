@@ -10,17 +10,16 @@
 
 /* .max-navbar-height {
   max-height: 70px;
-  background-color: #ffffff;
 } */
 
 .mynav {
-  /* margin-left: 45%; */
+  margin-left: 10%;
   /* padding: 10px; */
-  font-weight: 600;
+  font-weight: 700;
 }
 
 .nav-link {
-  margin-right: 18px;
+  margin-right: 10px;
 }
 
 .hover-dropdown:hover .dropdown-menu {

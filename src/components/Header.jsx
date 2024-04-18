@@ -39,7 +39,7 @@ function Header(args) {
   return (
     <div>
       <Navbar
-        className="fixed-top max-navbar-height bg-white "
+        className="fixed-top bg-light max-navbar-height"
         expand={"md"}
         {...args}
       >
@@ -267,6 +267,15 @@ function Header(args) {
                 onClick={handleNavigation}
               >
                 Careers
+              </Link>
+            </NavItem>
+            <NavItem>
+              <Link
+                className="nav-link"
+                to="/general-enquiry"
+                onClick={handleNavigation}
+              >
+                Enquiry
               </Link>
             </NavItem>
             <NavItem>

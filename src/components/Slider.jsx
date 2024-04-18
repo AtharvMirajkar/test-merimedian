@@ -1,4 +1,7 @@
 import React, { useState } from "react";
+import pharma from "../assets/pharma.jpg";
+import pharma2 from "../assets/pharma2.jpg";
+import pharma3 from "../assets/pharma3.avif";
 
 import {
   Carousel,
@@ -10,19 +13,19 @@ import {
 
 const items = [
   {
-    src: "https://picsum.photos/id/123/1200/400",
+    src: pharma,
     altText: "Slide 1",
     caption: "Slide 1",
     key: 1,
   },
   {
-    src: "https://picsum.photos/id/456/1200/400",
+    src: pharma2,
     altText: "Slide 2",
     caption: "Slide 2",
     key: 2,
   },
   {
-    src: "https://picsum.photos/id/678/1200/400",
+    src: pharma3,
     altText: "Slide 3",
     caption: "Slide 3",
     key: 3,
@@ -57,7 +60,17 @@ function Slider(args) {
         onExited={() => setAnimating(false)}
         key={item.src}
       >
-        <img src={item.src} alt={item.altText} />
+        <img
+          src={item.src}
+          alt={item.altText}
+          className="d-block w-100"
+          style={{
+            maxHeight: "570px",
+
+            objectFit: "cover",
+            margin: "auto",
+          }}
+        />
         <CarouselCaption
           captionText={item.caption}
           captionHeader={item.caption}

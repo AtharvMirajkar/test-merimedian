@@ -30,10 +30,16 @@ function Header(args) {
     setSelectedProduct(null);
   };
 
+  // Function to close the dropdown
+  const closeDropdown = () => {
+    setIsOpen(false);
+  };
+
   // Function to handle product selection
   const handleProductSelect = (product) => {
     setSelectedProduct(product);
-    return <Navigate to="/products" />;
+    setIsOpen(false); // Close the navbar
+    // return <Navigate to="/products" />;
   };
 
   return (
@@ -230,7 +236,7 @@ function Header(args) {
                     </Link>
                     <Link
                       className="dropdown-item"
-                      onClick={() => handleProductSelect("Type 1")}
+                      onClick={() => handleProductSelect("Product C")}
                     >
                       Product C
                     </Link>

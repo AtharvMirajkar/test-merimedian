@@ -1,6 +1,8 @@
 import React from "react";
 import MedicineItem from "../components/MedicineItem";
 import product1 from "../assets/medicine1.jpg";
+import product2 from "../assets/medicine2.png";
+import product3 from "../assets/medicine3.png";
 
 function MedicineList({ selectedProduct }) {
   const allMedicines = [
@@ -50,10 +52,54 @@ function MedicineList({ selectedProduct }) {
     },
     {
       product: "Product B",
-      imageSrc: "src/assets/medicine2.jpg",
+      imageSrc: product2,
       description: (
         <div>
-          <h3>Sinarest</h3>
+          <h3>MZORB D3</h3>
+          <p>
+            <strong>Reduces edema and promotes healing</strong>
+          </p>
+
+          <p>
+            <strong>Composition:</strong> Each film-coated tablet contains (5,6
+            Benzo alpha pyrone) Coumarin 200mg.
+          </p>
+
+          <p>
+            <strong>Benefits:</strong>
+          </p>
+          <ul>
+            <li>
+              Effectively reduces edema through proteolysis and phagocytosis
+            </li>
+            <li>Restores lymphatic function and accelerates wound healing</li>
+            <li>
+              Superior results compared to proteolytic enzyme preparations
+            </li>
+          </ul>
+
+          <p>
+            <strong>Indications:</strong> Lymphedema, edema associated with
+            thromboembolism, deep vein thrombosis, elephantiasis, and swelling
+            due to unknown origin.
+          </p>
+
+          <p>
+            <strong>Dose:</strong> One tablet twice daily.
+          </p>
+
+          <p>
+            <strong>Packing:</strong> Blister strip of 10 tablets each.
+          </p>
+        </div>
+      ),
+    },
+    {
+      product: "Product C",
+      imageSrc: product3,
+      description: (
+        <div>
+          <h3>Cis Q Forte</h3>
           <p>
             <strong>Reduces edema and promotes healing</strong>
           </p>

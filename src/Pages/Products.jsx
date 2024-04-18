@@ -37,10 +37,10 @@ const Products = ({ selectedProduct }) => {
       {selectedProduct && (
         <div className="d-flex justify-content-between align-items-center mt-3 px-3">
           <div className="icon-container" onClick={goToPreviousProduct}>
-            <FontAwesomeIcon icon={faArrowLeft} size="2x" />
+            <FontAwesomeIcon icon={faArrowLeft} size="lg" />
           </div>
           <div className="icon-container" onClick={goToNextProduct}>
-            <FontAwesomeIcon icon={faArrowRight} size="2x" />
+            <FontAwesomeIcon icon={faArrowRight} size="lg" />
           </div>
         </div>
       )}

@@ -225,46 +225,86 @@ function Header(args) {
                       className="dropdown-item"
                       to={{
                         pathname: "/products",
-                        search: "?product=ProductA",
+                        search: "?product=MAZORB D3",
                       }}
-                      onClick={() => handleProductSelect("Product A")}
+                      onClick={() => handleProductSelect("MAZORB D3")}
                     >
-                      Product A
+                      MAZORB D3
                     </Link>
                     <Link
                       className="dropdown-item"
                       to={{
                         pathname: "/products",
-                        search: "?product=ProductB",
+                        search: "?product=FB-Rich",
                       }}
-                      onClick={() => handleProductSelect("Product B")}
+                      onClick={() => handleProductSelect("FB-Rich")}
                     >
-                      Product B
+                      FB-Rich
                     </Link>
                     <Link
                       className="dropdown-item"
                       to={{
                         pathname: "/products",
-                        search: "?product=ProductC",
+                        search: "?product=Cis Q Forte",
                       }}
-                      onClick={() => handleProductSelect("Product C")}
+                      onClick={() => handleProductSelect("Cis Q Forte")}
                     >
-                      Product C
+                      Cis Q Forte
                     </Link>
                     <Link
                       className="dropdown-item"
-                      onClick={() => handleProductSelect("Type 1")}
+                      to={{
+                        pathname: "/products",
+                        search: "?product=UPCOOL-20",
+                      }}
+                      onClick={() => handleProductSelect("UPCOOL-20")}
                     >
-                      Product D
+                      UPCOOL-20
                     </Link>
                   </div>
                   <div style={{ marginRight: "20px" }}>
                     <DropdownItem header>Type 2</DropdownItem>
                     <DropdownItem divider />
-                    <Link className="dropdown-item">Product E</Link>
-                    <Link className="dropdown-item">Product F</Link>
-                    <Link className="dropdown-item">Product G</Link>
-                    <Link className="dropdown-item">Product H</Link>
+                    <Link
+                      className="dropdown-item"
+                      to={{
+                        pathname: "/products",
+                        search: "?product=UPTRACE",
+                      }}
+                      onClick={() => handleProductSelect("UPTRACE")}
+                    >
+                      UPTRACE
+                    </Link>
+                    <Link
+                      className="dropdown-item"
+                      to={{
+                        pathname: "/products",
+                        search: "?product=Ne-norm",
+                      }}
+                      onClick={() => handleProductSelect("Ne-norm")}
+                    >
+                      Ne-norm
+                    </Link>
+                    <Link
+                      className="dropdown-item"
+                      to={{
+                        pathname: "/products",
+                        search: "?product=Pilenorm",
+                      }}
+                      onClick={() => handleProductSelect("Pilenorm")}
+                    >
+                      Pilenorm
+                    </Link>
+                    <Link
+                      className="dropdown-item"
+                      to={{
+                        pathname: "/products",
+                        search: "?product=UPTACE-M Injectio",
+                      }}
+                      onClick={() => handleProductSelect("UPTACE-M Injection")}
+                    >
+                      UPTACE-M Injectio
+                    </Link>
                   </div>
                   <div>
                     <DropdownItem header>Type 3</DropdownItem>

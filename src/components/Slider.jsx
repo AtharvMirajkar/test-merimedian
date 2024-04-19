@@ -1,6 +1,6 @@
 import React, { useState } from "react";
 import pharma from "../assets/pharma.jpg";
-import pharma2 from "../assets/pharma2.jpg";
+import pharma2 from "../assets/Pharma2.jpeg";
 import pharma3 from "../assets/pharma3.avif";
 
 import {

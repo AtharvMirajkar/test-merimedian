@@ -9,9 +9,9 @@ import product3 from "../assets/medicine3.png";
 
 const FeaturedProducts = () => {
   const products = [
-    { id: 1, title: "Product 1", imageUrl: product1 },
-    { id: 2, title: "Product 2", imageUrl: product2 },
-    { id: 3, title: "Product 3", imageUrl: product3 },
+    { id: 1, title: "Flatuma", imageUrl: product1 },
+    { id: 2, title: "MZORB D3", imageUrl: product2 },
+    { id: 3, title: "Cis Q Fortee", imageUrl: product3 },
     // Add more products as needed
   ];
 

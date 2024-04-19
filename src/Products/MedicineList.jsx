@@ -124,8 +124,8 @@ function MedicineList({ selectedProduct }) {
           </p>
 
           <p>
-            <strong>Composition:</strong> Each film-coated tablet contains (5,6
-            Benzo alpha pyrone) Coumarin 200mg.
+            <strong>Composition:</strong> Cissus Quadrangulararis, Boswellia
+            serrata, Withania somnifera, Vitex negundo & Tinospora cordifolia
           </p>
 
           <p>
@@ -142,13 +142,16 @@ function MedicineList({ selectedProduct }) {
           </ul>
 
           <p>
-            <strong>Indications:</strong> Lymphedema, edema associated with
-            thromboembolism, deep vein thrombosis, elephantiasis, and swelling
-            due to unknown origin.
+            <strong>Indications:</strong>
+            <ul>
+              <li>Fractured bones </li>
+              <li>Pain</li>
+            </ul>
           </p>
 
           <p>
-            <strong>Dose:</strong> One tablet twice daily.
+            <strong>Dose:</strong> Use as directed by the healthcare
+            professional.
           </p>
 
           <p>
@@ -164,35 +167,34 @@ function MedicineList({ selectedProduct }) {
         <div>
           <h3>UPCOOL-20</h3>
           <p>
-            <strong>Reduces edema and promotes healing</strong>
+            <strong>
+              To treat depression and other mental health conditions like panic
+              disorder and obsessive-compulsive disorder.
+            </strong>
           </p>
 
           <p>
-            <strong>Composition:</strong> Each film-coated tablet contains (5,6
-            Benzo alpha pyrone) Coumarin 200mg.
+            <strong>Composition:</strong> Rabeprazole Gastro-Resistant Tablets
+            IP
           </p>
 
           <p>
             <strong>Benefits:</strong>
           </p>
           <ul>
-            <li>
-              Effectively reduces edema through proteolysis and phagocytosis
-            </li>
-            <li>Restores lymphatic function and accelerates wound healing</li>
-            <li>
-              Superior results compared to proteolytic enzyme preparations
-            </li>
+            <li>Treatment of Depression</li>
+            <li>Treatment of Panic disorder</li>
+            <li>Treatment of Obsessive-compulsive disorder</li>
           </ul>
 
           <p>
-            <strong>Indications:</strong> Lymphedema, edema associated with
-            thromboembolism, deep vein thrombosis, elephantiasis, and swelling
-            due to unknown origin.
+            <strong>Indications:</strong>
           </p>
 
           <p>
-            <strong>Dose:</strong> One tablet twice daily.
+            <strong>Dose:</strong> Take this medicine in the dose and duration
+            as advised by your doctor. Cool 20mg Capsule may be taken with or
+            without food, but it is better to take it at a fixed time.
           </p>
 
           <p>
@@ -208,12 +210,11 @@ function MedicineList({ selectedProduct }) {
         <div>
           <h3>UPTRACE</h3>
           <p>
-            <strong>Reduces edema and promotes healing</strong>
+            <strong>No information</strong>
           </p>
 
           <p>
-            <strong>Composition:</strong> Each film-coated tablet contains (5,6
-            Benzo alpha pyrone) Coumarin 200mg.
+            <strong>Composition:</strong>
           </p>
 
           <p>
@@ -230,17 +231,15 @@ function MedicineList({ selectedProduct }) {
           </ul>
 
           <p>
-            <strong>Indications:</strong> Lymphedema, edema associated with
-            thromboembolism, deep vein thrombosis, elephantiasis, and swelling
-            due to unknown origin.
+            <strong>Indications:</strong>
           </p>
 
           <p>
-            <strong>Dose:</strong> One tablet twice daily.
+            <strong>Dose:</strong>
           </p>
 
           <p>
-            <strong>Packing:</strong> Blister strip of 10 tablets each.
+            <strong>Packing:</strong>
           </p>
         </div>
       ),
@@ -252,39 +251,39 @@ function MedicineList({ selectedProduct }) {
         <div>
           <h3>Ne-norm</h3>
           <p>
-            <strong>Reduces edema and promotes healing</strong>
+            <strong>
+              Type of female hormone (estrogen), hormone replacement therapy
+              (HRT)
+            </strong>
           </p>
 
           <p>
-            <strong>Composition:</strong> Each film-coated tablet contains (5,6
-            Benzo alpha pyrone) Coumarin 200mg.
+            <strong>Composition:</strong> L-Arginine, Collagen Peptide Type -I,
+            Sodium Hyaluronate, Chondroitin Sulphate & Vitamin C Tablets
           </p>
 
           <p>
             <strong>Benefits:</strong>
           </p>
           <ul>
-            <li>
-              Effectively reduces edema through proteolysis and phagocytosis
-            </li>
-            <li>Restores lymphatic function and accelerates wound healing</li>
-            <li>
-              Superior results compared to proteolytic enzyme preparations
-            </li>
+            <li>Hormone replacement therapy</li>
+            <li>Treatment of Prostate cancer</li>
+            <li>Treatment of Breast cancer</li>
           </ul>
 
           <p>
-            <strong>Indications:</strong> Lymphedema, edema associated with
-            thromboembolism, deep vein thrombosis, elephantiasis, and swelling
-            due to unknown origin.
+            <strong>Indications:</strong>
           </p>
 
           <p>
-            <strong>Dose:</strong> One tablet twice daily.
+            <strong>Dose:</strong> Take this medicine in the dose and duration
+            as advised by your doctor. Swallow it as a whole. Do not chew, crush
+            or break it. It may be taken with or without food, but it is better
+            to take it at a fixed time.
           </p>
 
           <p>
-            <strong>Packing:</strong> Blister strip of 10 tablets each.
+            <strong>Packing:</strong> Blister strip of 16 tablets each.
           </p>
         </div>
       ),
@@ -296,35 +295,29 @@ function MedicineList({ selectedProduct }) {
         <div>
           <h3>Pilenorm</h3>
           <p>
-            <strong>Reduces edema and promotes healing</strong>
+            <strong>No information</strong>
           </p>
 
           <p>
-            <strong>Composition:</strong> Each film-coated tablet contains (5,6
-            Benzo alpha pyrone) Coumarin 200mg.
+            <strong>Composition:</strong>
           </p>
 
           <p>
             <strong>Benefits:</strong>
           </p>
           <ul>
-            <li>
-              Effectively reduces edema through proteolysis and phagocytosis
-            </li>
-            <li>Restores lymphatic function and accelerates wound healing</li>
-            <li>
-              Superior results compared to proteolytic enzyme preparations
-            </li>
+            <li></li>
+            <li></li>
+            <li></li>
           </ul>
 
           <p>
-            <strong>Indications:</strong> Lymphedema, edema associated with
-            thromboembolism, deep vein thrombosis, elephantiasis, and swelling
-            due to unknown origin.
+            <strong>Indications:</strong>
           </p>
 
           <p>
-            <strong>Dose:</strong> One tablet twice daily.
+            <strong>Dose:</strong> Use as directed by the healthcare
+            professional.
           </p>
 
           <p>
@@ -340,39 +333,33 @@ function MedicineList({ selectedProduct }) {
         <div>
           <h3>UPTACE-M Injection</h3>
           <p>
-            <strong>Reduces edema and promotes healing</strong>
+            <strong>To treat deficiency of vitamin B12 in the body</strong>
           </p>
 
           <p>
-            <strong>Composition:</strong> Each film-coated tablet contains (5,6
-            Benzo alpha pyrone) Coumarin 200mg.
+            <strong>Composition:</strong> Methylcobalamin
           </p>
 
           <p>
             <strong>Benefits:</strong>
           </p>
           <ul>
-            <li>
-              Effectively reduces edema through proteolysis and phagocytosis
-            </li>
-            <li>Restores lymphatic function and accelerates wound healing</li>
-            <li>
-              Superior results compared to proteolytic enzyme preparations
-            </li>
+            <li>Used for vitamin B12 deficiency</li>
           </ul>
 
           <p>
-            <strong>Indications:</strong> Lymphedema, edema associated with
-            thromboembolism, deep vein thrombosis, elephantiasis, and swelling
-            due to unknown origin.
+            <strong>Indications:</strong> Injection is a form of vitamin B12
+            that restores its level in the body thereby helping in treating
+            certain anemias and nerve problems.
           </p>
 
           <p>
-            <strong>Dose:</strong> One tablet twice daily.
+            <strong>Dose:</strong> Your doctor or nurse will give you this
+            medicine. Kindly do not self administer.
           </p>
 
           <p>
-            <strong>Packing:</strong> Blister strip of 10 tablets each.
+            <strong>Packing:</strong>
           </p>
         </div>
       ),

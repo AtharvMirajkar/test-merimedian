@@ -20,7 +20,9 @@ import Products from "../Pages/Products";
 function Header(args) {
   const [isOpen, setIsOpen] = useState(false);
 
-  const [selectedProduct, setSelectedProduct] = useState(null); // Add state for selected product
+  const [selectedProduct, setSelectedProduct] = useState(
+    localStorage.getItem("selectedProduct") || null
+  ); // Add state for selected product
 
   const toggle = () => setIsOpen(!isOpen);
 
@@ -28,6 +30,7 @@ function Header(args) {
   const handleNavigation = () => {
     setIsOpen(false); // Close the navbar
     setSelectedProduct(null);
+    localStorage.removeItem("selectedProduct");
   };
 
   // Function to close the dropdown
@@ -39,6 +42,7 @@ function Header(args) {
   const handleProductSelect = (product) => {
     setSelectedProduct(product);
     setIsOpen(false); // Close the navbar
+    localStorage.setItem("selectedProduct", product);
     // return <Navigate to="/products" />;
   };
 
@@ -229,13 +233,20 @@ function Header(args) {
                     </Link>
                     <Link
                       className="dropdown-item"
-                      to="/products"
+                      to={{
+                        pathname: "/products",
+                        search: "?product=ProductB",
+                      }}
                       onClick={() => handleProductSelect("Product B")}
                     >
                       Product B
                     </Link>
                     <Link
                       className="dropdown-item"
+                      to={{
+                        pathname: "/products",
+                        search: "?product=ProductC",
+                      }}
                       onClick={() => handleProductSelect("Product C")}
                     >
                       Product C

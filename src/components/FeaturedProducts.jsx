@@ -39,12 +39,12 @@ const FeaturedProducts = () => {
   };
 
   return (
-    <div className="container mt-4">
+    <div className="container mt-5 mb-5">
       <h2 className="text-center">
         Our range of innovative healthcare products
       </h2>
       <div className="row justify-content-center">
-        <div className="col-12">
+        <div className="col-12 overflow-hidden">
           <Slider {...settings}>
             {products.map((product) => (
               <div key={product.id} className="text-center">
@@ -54,7 +54,7 @@ const FeaturedProducts = () => {
                   alt={product.title}
                   style={{ maxHeight: "200px" }} // Specify dimensions here
                 />
-                <h4>{product.title}</h4>
+                <h4 style={{ fontSize: "1.rem" }}>{product.title}</h4>
               </div>
             ))}
           </Slider>

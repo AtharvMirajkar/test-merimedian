@@ -55,7 +55,6 @@ const Footer = () => {
             <div className="col-md-3 col-lg-4 col-xl-3 mx-auto mb-4">
               {/* Content */}
               <h6 className="text-uppercase fw-bold mb-4">
-                <FontAwesomeIcon icon={faGem} className="me-3" />
                 Merimedian Medicare
               </h6>
               <p>

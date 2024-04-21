@@ -53,8 +53,10 @@ function Header(args) {
         expand={"md"}
         {...args}
       >
-        <NavbarBrand href="/">
-          <img src={logo} alt="Logo" className="img-fluid navbar-logo" />
+        <NavbarBrand>
+          <Link to="/" onClick={handleNavigation}>
+            <img src={logo} alt="Logo" className="img-fluid navbar-logo" />
+          </Link>
         </NavbarBrand>
         <NavbarToggler onClick={toggle} />
         <Collapse isOpen={isOpen} navbar>

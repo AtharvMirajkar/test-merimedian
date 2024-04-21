@@ -1,54 +1,40 @@
 import React from "react";
-// import "../Styles/Achievements.css"; // Import your CSS file for custom styling if needed
 
 const Achievements = () => {
   return (
-    <div className="container">
-      <h2 className="mt-4 mb-3 text-center">Company Achievements</h2>
-      <div className="row row-cols-1 row-cols-md-2 g-4">
-        {/* Achievement 1 */}
-        <div className="col">
-          <div className="card h-100">
-            <div className="card-body">
-              <h5 className="card-title">Achievement 1</h5>
-              <p className="card-text">Short description of achievement 1.</p>
-            </div>
+    <div className="container text-center mt-4">
+      <h2 style={{ fontSize: "1.7rem" }}>Achivements</h2>
+      <div className="row mt-4">
+        {/* Popular Item 1 */}
+        <div className="col-md-4">
+          <div className="Achivements">
+            <h3 style={{ fontSize: "1.4rem" }}>Achivements 1</h3>
+            <p>Description of popular item 1 goes here...</p>
+            <a href="#" className="btn btn-primary">
+              Learn More
+            </a>
           </div>
         </div>
-        {/* Achievement 2 */}
-        <div className="col">
-          <div className="card h-100">
-            <div className="card-body">
-              <h5 className="card-title">Achievement 2</h5>
-              <p className="card-text">Short description of achievement 2.</p>
-            </div>
+
+        {/* Popular Item 2 */}
+        <div className="col-md-4">
+          <div className="popular-item">
+            <h3 style={{ fontSize: "1.4rem" }}>Achivements 2</h3>
+            <p>Description of popular item 2 goes here...</p>
+            <a href="#" className="btn btn-primary">
+              Learn More
+            </a>
           </div>
         </div>
-        {/* Achievement 3 */}
-        <div className="col">
-          <div className="card h-100">
-            <div className="card-body">
-              <h5 className="card-title">Achievement 3</h5>
-              <p className="card-text">Short description of achievement 3.</p>
-            </div>
-          </div>
-        </div>
-        {/* Achievement 4 */}
-        <div className="col">
-          <div className="card h-100">
-            <div className="card-body">
-              <h5 className="card-title">Achievement 4</h5>
-              <p className="card-text">Short description of achievement 4.</p>
-            </div>
-          </div>
-        </div>
-        {/* Achievement 5 */}
-        <div className="col">
-          <div className="card h-100">
-            <div className="card-body">
-              <h5 className="card-title">Achievement 5</h5>
-              <p className="card-text">Short description of achievement 5.</p>
-            </div>
+
+        {/* Popular Item 3 */}
+        <div className="col-md-4">
+          <div className="popular-item">
+            <h3 style={{ fontSize: "1.4rem" }}>Achivements 3</h3>
+            <p>Description of popular item 3 goes here...</p>
+            <a href="#" className="btn btn-primary">
+              Learn More
+            </a>
           </div>
         </div>
       </div>

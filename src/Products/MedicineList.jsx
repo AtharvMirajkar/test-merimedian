@@ -376,15 +376,15 @@ function MedicineList({ selectedProduct }) {
       <div className="row justify-content-center">
         {filteredMedicines.map((medicine, index) => (
           <div key={index}>
-            <div className="row mb-5 mt-2">
-              <div className="col-md-4">
+            <div className="row mb-4 mt-2">
+              <div className="col-md-4 mb-4">
                 <img
                   src={medicine.imageSrc}
                   alt="Medicine"
                   className="img-fluid"
                 />
               </div>
-              <div className="col-md-8">{medicine.description}</div>
+              <div className="col-md-8 mb-4">{medicine.description}</div>
             </div>
           </div>
         ))}

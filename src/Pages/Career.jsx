@@ -13,12 +13,12 @@ const Career = () => {
         <Title text="Careers" />
       </div>
 
-      <div className="container mt-5 mb-4">
+      <div className="container mt-5">
         <div className="row">
-          <div className="col-lg-4">
+          <div className="col-lg-4 mb-4">
             <img src={careerImage} className="img-fluid w-100" alt="Career" />
           </div>
-          <div className="col-lg-8 d-flex align-items-center">
+          <div className="col-lg-8 d-flex align-items-center mb-4">
             <div className="px-4">
               <p>
                 Merimedian Medicare Pvt Ltd is seeking talented individuals to

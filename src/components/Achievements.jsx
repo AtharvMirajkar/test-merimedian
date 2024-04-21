@@ -6,7 +6,7 @@ const Achievements = () => {
       <h2 style={{ fontSize: "1.7rem" }}>Achivements</h2>
       <div className="row mt-4">
         {/* Popular Item 1 */}
-        <div className="col-md-4">
+        <div className="col-md-4 mb-4">
           <div className="Achivements">
             <h3 style={{ fontSize: "1.4rem" }}>Achivements 1</h3>
             <p>Description of popular item 1 goes here...</p>
@@ -17,7 +17,7 @@ const Achievements = () => {
         </div>
 
         {/* Popular Item 2 */}
-        <div className="col-md-4">
+        <div className="col-md-4 mb-4">
           <div className="popular-item">
             <h3 style={{ fontSize: "1.4rem" }}>Achivements 2</h3>
             <p>Description of popular item 2 goes here...</p>
@@ -28,7 +28,7 @@ const Achievements = () => {
         </div>
 
         {/* Popular Item 3 */}
-        <div className="col-md-4">
+        <div className="col-md-4 mb-4">
           <div className="popular-item">
             <h3 style={{ fontSize: "1.4rem" }}>Achivements 3</h3>
             <p>Description of popular item 3 goes here...</p>

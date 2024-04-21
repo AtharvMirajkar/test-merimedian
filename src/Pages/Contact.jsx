@@ -15,7 +15,7 @@ const Contact = () => {
       <section className="contact-us py-4">
         <div className="container">
           <div className="row">
-            <div className="col-md-6">
+            <div className="col-md-6 mb-4">
               {/* Address section */}
               <div className="address">
                 <h2>Our Address</h2>
@@ -32,7 +32,7 @@ const Contact = () => {
                 </p>
               </div>
             </div>
-            <div className="col-md-6">
+            <div className="col-md-6 mb-4">
               {/* Google Map section */}
               <div className="google-map">
                 {/* You can embed your Google Map here */}

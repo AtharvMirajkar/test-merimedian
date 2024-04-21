@@ -299,7 +299,7 @@ function Header(args) {
                       className="dropdown-item"
                       to={{
                         pathname: "/products",
-                        search: "?product=UPTACE-M Injectio",
+                        search: "?product=UPTACE-M Injection",
                       }}
                       onClick={() => handleProductSelect("UPTACE-M Injection")}
                     >

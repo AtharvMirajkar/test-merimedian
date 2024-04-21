@@ -32,13 +32,44 @@ const App = () => {
             element={<GeneralEnquiryForm />}
           ></Route>
 
-          <Route
-            path="/products/productA"
-            element={<Products selectedProduct="Product A" />}
-          ></Route>
-
           <Route path="/Manufacturing/Clients" element={<Clients />} />
           <Route path="/About/Overview" element={<Overview />} />
+        </Routes>
+
+        {/* Routes for products */}
+        <Routes>
+          <Route
+            path="/products/MAZORB-D3"
+            element={<Products selectedProduct="MAZORB D3" />}
+          ></Route>
+          <Route
+            path="/products/FB-Rich"
+            element={<Products selectedProduct="FB-Rich" />}
+          ></Route>
+          <Route
+            path="/products/Cis Q Forte"
+            element={<Products selectedProduct="Cis Q Forte" />}
+          ></Route>
+          <Route
+            path="/products/UPCOOL-20"
+            element={<Products selectedProduct="UPCOOL-20" />}
+          ></Route>
+          <Route
+            path="/products/UPTRACE"
+            element={<Products selectedProduct="UPTRACE" />}
+          ></Route>
+          <Route
+            path="/products/Ne-norm"
+            element={<Products selectedProduct="Ne-norm" />}
+          ></Route>
+          <Route
+            path="/products/Pilenorm"
+            element={<Products selectedProduct="Pilenorm" />}
+          ></Route>
+          <Route
+            path="/products/UPTACE-M Injection"
+            element={<Products selectedProduct="UPTACE-M Injection" />}
+          ></Route>
         </Routes>
 
         <Footer />

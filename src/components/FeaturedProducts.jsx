@@ -18,7 +18,7 @@ const FeaturedProducts = () => {
   const products = [
     { id: "MAZORB-D3", title: "MAZORB-D3", imageUrl: product1 },
     { id: "FB-Rich", title: "FB Rich", imageUrl: product2 },
-    { id: "CIS-Q-Forte", title: "Cis Q Fortee", imageUrl: product3 },
+    { id: "Cis Q Forte", title: "Cis Q Fortee", imageUrl: product3 },
     { id: "UPCOOL-20", title: "UPCOOL 20", imageUrl: product4 },
     { id: "UPTRACE", title: "UPTRACE", imageUrl: product5 },
     { id: "Ne-norm", title: "Ne-norm", imageUrl: product6 },

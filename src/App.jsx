@@ -2,6 +2,7 @@ import React from "react";
 import "./App.css";
 import Header from "./components/Header";
 import { BrowserRouter as Router, Route, Routes } from "react-router-dom";
+
 import Home from "./Pages/Home";
 import About from "./Pages/About";
 import Contact from "./Pages/Contact";
@@ -11,11 +12,13 @@ import Career from "./Pages/Career";
 import Clients from "./components/Clients";
 import Overview from "./components/Overview";
 import GeneralEnquiryForm from "./components/GeneralEnquiryForm";
+import ScrollToTop from "./components/ScrollToTop";
 
 const App = () => {
   return (
     <>
       <Router>
+        <ScrollToTop />
         <Header />
 
         <Routes>

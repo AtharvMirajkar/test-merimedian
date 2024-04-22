@@ -61,10 +61,10 @@ const FeaturedProducts = () => {
 
   return (
     <div className="container mt-5 mb-5">
-      <h2 className="text-center">
+      <h3 className="text-center">
         Our range of innovative healthcare products
-      </h2>
-      <div className="row justify-content-center">
+      </h3>
+      <div className="row justify-content-center mt-4">
         <div className="col-12 overflow-hidden">
           <Slider {...settings}>
             {products.map((product) => (

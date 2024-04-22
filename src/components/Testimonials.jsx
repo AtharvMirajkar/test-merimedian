@@ -8,7 +8,7 @@ const Testimonials = () => {
         {" "}
         {/* Added container class */}
         <div className="row justify-content-center">
-          <div className="col-md-10 col-xl-8 text-center">
+          <div className="col-md-10 col-xl-8 text-center mt-4">
             <h3 className="mb-4">Testimonials</h3>
             <p className="mb-4 pb-2 mb-md-5 pb-md-0">
               "At Merimedian Medicare, we pride ourselves on delivering

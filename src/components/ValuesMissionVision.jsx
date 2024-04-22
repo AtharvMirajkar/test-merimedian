@@ -18,7 +18,7 @@ const MissionVisionValues = () => {
           </div>
 
           {/* Description Section */}
-          <div className="col-lg-6">
+          <div className="col-lg-6 col-md-12">
             <div className="description">
               <h2 className="mb-4">Mission</h2>
               <p className="mb-4">

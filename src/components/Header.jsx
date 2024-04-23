@@ -219,7 +219,7 @@ function Header(args) {
                 Products
               </DropdownToggle>
               <DropdownMenu>
-                <div style={{ display: "flex", flexDirection: "row" }}>
+                <div class="d-flex flex-md-row flex-column">
                   <div style={{ marginRight: "20px" }}>
                     <DropdownItem header>Type 1</DropdownItem>
                     <DropdownItem divider />

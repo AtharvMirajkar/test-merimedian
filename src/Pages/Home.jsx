@@ -5,6 +5,7 @@ import Counter from "../components/Counter";
 import FeaturedProducts from "../components/FeaturedProducts";
 import Testimonials from "../components/Testimonials";
 import ValuesMissionVision from "../components/ValuesMissionVision";
+import CompanyInfo from "../components/CompanyInfo";
 
 const Home = () => {
   useEffect(() => {
@@ -15,6 +16,8 @@ const Home = () => {
       <Slider></Slider>
       <Counter />
       {/* <Achievements /> */}
+
+      <CompanyInfo />
       <ValuesMissionVision />
       <FeaturedProducts />
       <Testimonials />

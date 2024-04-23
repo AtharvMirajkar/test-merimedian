@@ -8,6 +8,7 @@ import MoringoLogo from "../assets/clients/Moringo.png";
 import macleodsLogo from "../assets/clients/macleods.png";
 import ajantaLogo from "../assets/clients/ajanta.jpg";
 import StridesLogo from "../assets/clients/Strides.jpg";
+import "../Styles/Clients.css";
 
 const Clients = () => {
   return (
@@ -28,56 +29,64 @@ const Clients = () => {
               <img
                 src={IndocoLogo}
                 alt="Client 1"
-                className="img-fluid d-block mx-auto "
+                className="img-fluid d-block mx-auto myicon1"
+                style={{ maxWidth: "80%", height: "auto" }}
               />
             </div>
-            <div className="col-lg-3 col-md-4 col-sm-6 col-12 mb-4">
+            <div className="col-lg-3 col-md-4 col-sm-6 col-12 mb-4 ">
               <img
                 src={WockhardtLogo}
                 alt="Client 2"
-                className="img-fluid d-block mx-auto w-80"
+                className="img-fluid d-block mx-auto w-80 myicon"
+                style={{ maxWidth: "80%", height: "auto" }}
               />
             </div>
             <div className="col-lg-3 col-md-4 col-sm-6 col-12 mb-4">
               <img
                 src={zuventusLogo}
                 alt="Client 3"
-                className="img-fluid d-block mx-auto "
+                className="img-fluid d-block mx-auto myicon1"
+                style={{ maxWidth: "60%", height: "auto" }}
               />
             </div>
             <div className="col-lg-3 col-md-4 col-sm-6 col-12 mb-4">
               <img
                 src={KoyeLogo}
                 alt="Client 1"
-                className="img-fluid d-block mx-auto w-80"
+                className="img-fluid d-block mx-auto w-80 myicon"
+                style={{ maxWidth: "80%", height: "auto" }}
               />
             </div>
             <div className="col-lg-3 col-md-4 col-sm-6 col-12 mb-4">
               <img
                 src={MoringoLogo}
                 alt="Client 1"
-                className="img-fluid d-block mx-auto "
+                className="img-fluid d-block mx-auto myicon1"
+                style={{ maxWidth: "80%", height: "auto" }}
               />
             </div>
             <div className="col-lg-3 col-md-4 col-sm-6 col-12 mb-4">
               <img
                 src={macleodsLogo}
                 alt="Client 1"
-                className="img-fluid d-block mx-auto "
+                className="img-fluid d-block mx-auto myicon "
+                style={{ maxWidth: "80%", height: "auto" }}
               />
             </div>
             <div className="col-lg-3 col-md-4 col-sm-6 col-12 mb-4">
               <img
                 src={ajantaLogo}
                 alt="Client 1"
-                className="img-fluid d-block mx-auto "
+                className="img-fluid d-block mx-auto myicon1"
+                style={{ maxWidth: "80%", height: "auto" }}
               />
             </div>
             <div className="col-lg-3 col-md-4 col-sm-6 col-12 mb-4">
               <img
                 src={StridesLogo}
                 alt="Client 1"
-                className="img-fluid d-block mx-auto "
+                className="img-fluid d-block mx-auto myicon1"
+                style={{ maxWidth: "80%", height: "auto" }}
               />
             </div>
             {/* Add more client logos as needed */}

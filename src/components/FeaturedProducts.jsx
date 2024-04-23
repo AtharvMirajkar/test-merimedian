@@ -73,7 +73,7 @@ const FeaturedProducts = () => {
                   src={product.imageUrl}
                   className="img-fluid rounded mx-auto" // Center image horizontally
                   alt={product.title}
-                  style={{ maxHeight: "200px" }} // Specify dimensions here
+                  style={{ maxHeight: "250px" }} // Specify dimensions here
                   onClick={() => handleProductClick(product.id)} // Handle click event
                   role="button" // Add role button for accessibility
                   tabIndex="0" // Add tabIndex for accessibility

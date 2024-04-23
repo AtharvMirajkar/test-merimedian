@@ -1,0 +1,13 @@
+/* CSS for mobile devices */
+
+@media screen and (max-width: 767px) {
+  .myicon {
+    max-height: 200px; /* Adjust the height as needed for smaller screens */
+  }
+}
+
+@media screen and (max-width: 767px) {
+  .myicon1 {
+    max-height: 120px; /* Adjust the height as needed for smaller screens */
+  }
+}

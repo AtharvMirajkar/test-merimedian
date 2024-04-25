@@ -1,12 +1,3 @@
-.gradient-custom {
-  background: radial-gradient(50% 123.47% at 50% 50%, #00ff94 0%, #720059 100%),
-    linear-gradient(121.28deg, #669600 0%, #ff0000 100%),
-    linear-gradient(360deg, #0029ff 0%, #8fff00 100%),
-    radial-gradient(100% 164.72% at 100% 100%, #6100ff 0%, #00ff57 100%),
-    radial-gradient(100% 148.07% at 0% 0%, #fff500 0%, #51d500 100%);
-  background-blend-mode: screen, color-dodge, overlay, difference, normal;
-}
-
 .carousel-indicators {
   display: flex;
   justify-content: center;
@@ -15,8 +6,8 @@
 
 .carousel-indicators .indicator {
   border-radius: 50%;
-  width: 12px;
-  height: 12px;
+  width: 4px;
+  height: 10px;
   border: 1px solid black;
   background-color: rgb(116, 114, 114);
   margin: 0 5px;
@@ -24,4 +15,43 @@
 
 .carousel-indicators .indicator.active {
   background-color: black;
+}
+
+/* Styles for testimonial card, image, and heading */
+.testimonial-card {
+  max-width: 900px; /* Adjust max-width as needed */
+  margin: auto; /* Center the card */
+}
+
+.testimonial-image {
+  width: 120px; /* Adjust width as needed */
+  height: 120px; /* Adjust height as needed */
+}
+
+.testimonial-name {
+  font-size: 1.5rem; /* Adjust font-size as needed */
+}
+
+.testimonial-text {
+  font-size: 1rem; /* Adjust font-size as needed */
+}
+
+/* Media query for mobile devices */
+@media (max-width: 767px) {
+  .testimonial-card {
+    max-width: 400px; /* Adjust max-width as needed for smaller screens */
+  }
+
+  .testimonial-image {
+    width: 80px; /* Adjust width as needed for smaller screens */
+    height: 80px; /* Adjust height as needed for smaller screens */
+  }
+
+  .testimonial-name {
+    font-size: 1.2rem; /* Adjust font-size as needed for smaller screens */
+  }
+
+  .testimonial-text {
+    font-size: 0.9rem; /* Adjust font-size as needed for smaller screens */
+  }
 }

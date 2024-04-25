@@ -53,7 +53,7 @@ const TestimonialCarousel = () => {
               <i className="fas fa-quote-left fa-3x text-white"></i>
             </div>
 
-            <div className="card">
+            <div className="card testimonial-card ">
               <div className="card-body px-4 py-5">
                 <div
                   className="carousel slide carousel-dark"
@@ -82,18 +82,20 @@ const TestimonialCarousel = () => {
                         <div className="row d-flex justify-content-center">
                           <div className="col-lg-10 col-xl-8">
                             <div className="row">
-                              <div className="col-lg-4 d-flex justify-content-center">
+                              <div className="col-lg-4 col-md-6 col-sm-8 d-flex justify-content-center mb-3">
                                 <img
                                   src={testimonial.image}
-                                  className="rounded-circle shadow-1 mb-4 mb-lg-0"
+                                  className="rounded-circle shadow-1 testimonial-image"
                                   alt="avatar"
-                                  width="150"
-                                  height="150"
                                 />
                               </div>
-                              <div className="col-9 col-md-9 col-lg-7 col-xl-8 text-center text-lg-start mx-auto mx-lg-0">
-                                <h4 className="mb-4">{testimonial.name}</h4>
-                                <p className="mb-0 pb-3">{testimonial.text}</p>
+                              <div className="col-lg-8 col-md-6 col-sm-12 text-center text-md-start">
+                                <h4 className="mb-3 testimonial-name">
+                                  {testimonial.name}
+                                </h4>
+                                <p className="mb-0 pb-3 testimonial-text">
+                                  {testimonial.text}
+                                </p>
                               </div>
                             </div>
                           </div>

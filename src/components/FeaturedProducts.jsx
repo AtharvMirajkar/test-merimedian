@@ -62,7 +62,7 @@ const FeaturedProducts = () => {
   return (
     <div className="container mt-5 mb-5">
       <h3 className="text-center">
-        Our range of innovative healthcare products
+        Our Range Of Innovative Healthcare Products
       </h3>
       <div className="row justify-content-center mt-4">
         <div className="col-12 overflow-hidden">

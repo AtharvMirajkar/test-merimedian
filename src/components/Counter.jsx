@@ -6,6 +6,7 @@ import {
   faBox,
   faCube,
 } from "@fortawesome/free-solid-svg-icons";
+import "../Styles/Counter.css";
 
 const Counter = () => {
   const [counts, setCounts] = useState([
@@ -53,10 +54,10 @@ const Counter = () => {
   }, [counts]);
 
   return (
-    <div className="counter mt-4 bg-primary text-white d-flex flex-wrap">
+    <div className="counter bg-primary text-white d-flex flex-wrap">
       {/* Added flex-wrap class */}
       {counts.map((item, index) => (
-        <div className="col-6 col-lg-3 mb-4 mt-4" key={index}>
+        <div className="col-3 col-lg-3 mb-4 mt-4" key={index}>
           <div className="count-data text-center">
             <h6 className="count h2" data-to={item.target}>
               {item.count}

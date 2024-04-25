@@ -1,0 +1,13 @@
+@media (max-width: 767px) {
+  .count-data {
+    font-size: 12px; /* Reduce font size for count */
+  }
+
+  .count {
+    font-size: 16px; /* Reduce font size for number */
+  }
+
+  .count-data svg {
+    font-size: 1.3rem; /* Reduce icon size */
+  }
+}

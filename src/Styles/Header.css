@@ -26,3 +26,10 @@
 .hover-dropdown:hover .dropdown-menu {
   display: block;
 }
+
+@media (max-width: 768px) {
+  .navbar-scroll {
+    max-height: 80vh; /* Adjust the max-height as needed */
+    overflow-y: auto;
+  }
+}

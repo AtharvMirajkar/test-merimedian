@@ -43,7 +43,6 @@ function Header(args) {
     setSelectedProduct(product);
     setIsOpen(false); // Close the navbar
     localStorage.setItem("selectedProduct", product);
-    // return <Navigate to="/products" />;
   };
 
   const location = useLocation();
@@ -64,7 +63,7 @@ function Header(args) {
         </NavbarBrand>
         <NavbarToggler onClick={toggle} />
         <Collapse isOpen={isOpen} navbar>
-          <Nav className="me-auto p-3 mynav" navbar>
+          <Nav className="me-auto p-3 mynav navbar-scroll" navbar>
             <NavItem>
               <Link className="nav-link" to="/" onClick={handleNavigation}>
                 Home

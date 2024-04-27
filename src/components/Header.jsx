@@ -1,5 +1,5 @@
 import React, { useState, useEffect } from "react";
-import { Link, Navigate } from "react-router-dom";
+import { Link, useLocation } from "react-router-dom";
 import logo from "../assets/Merimedian.png";
 
 import "../Styles/Header.css";
@@ -45,6 +45,10 @@ function Header(args) {
     localStorage.setItem("selectedProduct", product);
     // return <Navigate to="/products" />;
   };
+
+  const location = useLocation();
+  // Check if the current route is the products route
+  const isProductsRoute = location.pathname.startsWith("/products");
 
   return (
     <div>
@@ -349,8 +353,8 @@ function Header(args) {
           </Nav>
         </Collapse>
       </Navbar>
-      <Products selectedProduct={selectedProduct} />{" "}
-      {/* Pass selectedProduct to Products component */}
+      {/* Conditionally render the Products component based on the current route */}
+      {isProductsRoute && <Products selectedProduct={selectedProduct} />}
     </div>
   );
 }

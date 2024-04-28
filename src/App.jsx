@@ -13,6 +13,7 @@ import Clients from "./components/Clients";
 import Overview from "./components/Overview";
 import GeneralEnquiryForm from "./components/GeneralEnquiryForm";
 import ScrollToTop from "./components/ScrollToTop";
+import HistoryTimeLine from "./components/HistoryTimeLine";
 
 const App = () => {
   return (
@@ -34,6 +35,7 @@ const App = () => {
 
           <Route path="/Manufacturing/Clients" element={<Clients />} />
           <Route path="/About/Overview" element={<Overview />} />
+          <Route path="/About/History" element={<HistoryTimeLine />} />
         </Routes>
 
         {/* Routes for products */}

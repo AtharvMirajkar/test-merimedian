@@ -47,7 +47,7 @@ function Header(args) {
 
   const location = useLocation();
   // Check if the current route is the products route
-  const isProductsRoute = location.pathname.startsWith("/products");
+  const isProductsRoute = location.pathname.startsWith("/Products");
 
   return (
     <div>
@@ -229,7 +229,7 @@ function Header(args) {
                     <Link
                       className="dropdown-item"
                       to={{
-                        pathname: "/products",
+                        pathname: "/Products",
                         search: "?product=MAZORB D3",
                       }}
                       onClick={() => handleProductSelect("MAZORB D3")}
@@ -239,7 +239,7 @@ function Header(args) {
                     <Link
                       className="dropdown-item"
                       to={{
-                        pathname: "/products",
+                        pathname: "/Products",
                         search: "?product=FB-Rich",
                       }}
                       onClick={() => handleProductSelect("FB-Rich")}
@@ -249,7 +249,7 @@ function Header(args) {
                     <Link
                       className="dropdown-item"
                       to={{
-                        pathname: "/products",
+                        pathname: "/Products",
                         search: "?product=Cis Q Forte",
                       }}
                       onClick={() => handleProductSelect("Cis Q Forte")}
@@ -259,7 +259,7 @@ function Header(args) {
                     <Link
                       className="dropdown-item"
                       to={{
-                        pathname: "/products",
+                        pathname: "/Products",
                         search: "?product=UPCOOL-20",
                       }}
                       onClick={() => handleProductSelect("UPCOOL-20")}
@@ -273,7 +273,7 @@ function Header(args) {
                     <Link
                       className="dropdown-item"
                       to={{
-                        pathname: "/products",
+                        pathname: "/Products",
                         search: "?product=UPTRACE",
                       }}
                       onClick={() => handleProductSelect("UPTRACE")}
@@ -283,7 +283,7 @@ function Header(args) {
                     <Link
                       className="dropdown-item"
                       to={{
-                        pathname: "/products",
+                        pathname: "/Products",
                         search: "?product=Ne-norm",
                       }}
                       onClick={() => handleProductSelect("Ne-norm")}
@@ -293,7 +293,7 @@ function Header(args) {
                     <Link
                       className="dropdown-item"
                       to={{
-                        pathname: "/products",
+                        pathname: "/Products",
                         search: "?product=Pilenorm",
                       }}
                       onClick={() => handleProductSelect("Pilenorm")}
@@ -303,7 +303,7 @@ function Header(args) {
                     <Link
                       className="dropdown-item"
                       to={{
-                        pathname: "/products",
+                        pathname: "/Products",
                         search: "?product=UPTACE-M Injection",
                       }}
                       onClick={() => handleProductSelect("UPTACE-M Injection")}

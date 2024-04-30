@@ -14,6 +14,8 @@ import Overview from "./components/Overview";
 import GeneralEnquiryForm from "./components/GeneralEnquiryForm";
 import ScrollToTop from "./components/ScrollToTop";
 import HistoryTimeLine from "./components/HistoryTimeLine";
+import FounderInfo from "./components/FounderInfo";
+import MissionComponent from "./components/MissionComponent";
 
 const App = () => {
   return (
@@ -36,6 +38,8 @@ const App = () => {
           <Route path="/Manufacturing/Clients" element={<Clients />} />
           <Route path="/About/Overview" element={<Overview />} />
           <Route path="/About/History" element={<HistoryTimeLine />} />
+          <Route path="/About/Founder" element={<FounderInfo />} />
+          <Route path="/About/Mission" element={<MissionComponent />} />
         </Routes>
 
         {/* Routes for products */}

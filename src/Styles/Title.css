@@ -3,9 +3,15 @@
   justify-content: center;
   align-items: center;
   font-size: 24px;
-  height: 90px;
+  height: 120px;
   margin-top: 10px;
   margin-bottom: 40px;
   text-align: center;
-  background-color: #e7eaf0;
+  text-transform: uppercase;
+  font-weight: 700;
+
+  color: rgb(10, 10, 153);
+  background-image: url("https://img.freepik.com/free-vector/medical-science-banner-blue-color-shade_1017-24286.jpg?t=st=1714560590~exp=1714564190~hmac=6359996718e3a99c61a2279124a0e22f5f3286ac9e88f1566a475ce565d7f5c8&w=826"); /* Replace 'path_to_your_image.jpg' with the actual path to your image */
+  background-size: cover; /* Cover the entire element with the background image */
+  background-position: center; /* Center the background image */
 }

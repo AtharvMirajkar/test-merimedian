@@ -61,9 +61,10 @@ const FeaturedProducts = () => {
 
   return (
     <div className="container mt-5 mb-5">
-      <h3 className="text-center">
-        Our Range Of Innovative Healthcare Products
+      <h3 className="text-center blue-color">
+        Our Range Of Healthcare Products
       </h3>
+
       <div className="row justify-content-center mt-4">
         <div className="col-12 overflow-hidden">
           <Slider {...settings}>
@@ -79,7 +80,11 @@ const FeaturedProducts = () => {
                   tabIndex="0" // Add tabIndex for accessibility
                 />
                 <h4
-                  style={{ fontSize: "1.1rem" }}
+                  style={{
+                    fontSize: "1.1rem",
+                    textDecoration: "underline",
+                    color: "brown",
+                  }}
                   onClick={() => handleProductClick(product.id)} // Handle click event
                   role="button" // Add role button for accessibility
                   tabIndex="0" // Add tabIndex for accessibility

@@ -15,8 +15,8 @@ const CompanyInfo = () => {
         </div>
         <div className="col-lg-6 d-flex flex-column justify-content-center align-items-center bg-light mb-4">
           <div className="about-us-info text-center">
-            <h2>Merimedian Medicare</h2>
-            <p className="text-primary mt-3">
+            <h2 className="blue-color">Merimedian Medicare</h2>
+            <p className="mt-3">
               Merimedian’s mission is to provide innovative healthcare products
               with better safety and unique features that satisfy unfulfilled
               needs for greater satisfaction and improved healthcare in all.

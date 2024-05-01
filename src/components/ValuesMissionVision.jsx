@@ -3,7 +3,7 @@ import React from "react";
 const MissionVisionValues = () => {
   return (
     <section className="mission-vision-values py-5">
-      <div className="container">
+      <div className="container ">
         <div className="row align-items-start">
           {/* Image Section */}
           <div className="col-lg-6 mb-4 mb-lg-0 order-lg-1">
@@ -18,7 +18,7 @@ const MissionVisionValues = () => {
           {/* Description Section */}
           <div className="col-lg-6">
             <div className="description">
-              <h3 className="mb-4">Mission</h3>
+              <h3 className="mb-4 blue-color">Mission</h3>
               <p className="mb-4">
                 Our mission is to achieve customer satisfaction and establish
                 leadership in selected global markets by excelling in
@@ -29,7 +29,7 @@ const MissionVisionValues = () => {
               </p>
             </div>
             <div className="description">
-              <h3 className="mb-4">Vision</h3>
+              <h3 className="mb-4 blue-color">Vision</h3>
               <p className="mb-4">
                 Our aim is to emerge as a prominent pharmaceutical firm within
                 India and extend our reach as a notable global contender by

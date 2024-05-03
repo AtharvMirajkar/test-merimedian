@@ -4,8 +4,8 @@
 
 .navbar-logo {
   max-height: 60px;
-
-  /* margin-right: 40px; */
+  margin-left: 95px;
+  margin-right: 120px;
 }
 
 /* .max-navbar-height {
@@ -31,5 +31,9 @@
   .navbar-scroll {
     max-height: 80vh; /* Adjust the max-height as needed */
     overflow-y: auto;
+  }
+
+  .navbar-logo {
+    margin-left: 0;
   }
 }

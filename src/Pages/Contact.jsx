@@ -17,7 +17,7 @@ const Contact = () => {
           <div className="row">
             <div className="col-md-6 mb-4">
               {/* Address section */}
-              <div className="address">
+              <div className="address font-dark">
                 <h2>Our Address</h2>
 
                 <p>Merimedian Medicare Pvt. Ltd.</p>

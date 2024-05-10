@@ -1,5 +1,7 @@
 import React, { useState, useEffect } from "react";
 import "../Styles/Testimonials.css"; // Import CSS file for component-specific styles
+import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
+import { faQuoteLeft, faQuoteRight } from "@fortawesome/free-solid-svg-icons";
 
 const TestimonialCarousel = () => {
   const [activeIndex, setActiveIndex] = useState(0);
@@ -50,7 +52,10 @@ const TestimonialCarousel = () => {
         <div className="row d-flex justify-content-center">
           <div className="col-md-12">
             <div className="text-center mb-4 pb-2">
-              <i className="fas fa-quote-left fa-3x text-white"></i>
+              <FontAwesomeIcon
+                icon={faQuoteRight}
+                className="fa-3x blue-color fw-100"
+              />
             </div>
 
             <div className="card testimonial-card ">
@@ -131,7 +136,10 @@ const TestimonialCarousel = () => {
             </div>
 
             <div className="text-center mt-4 pt-2">
-              <i className="fas fa-quote-right fa-3x text-white"></i>
+              <FontAwesomeIcon
+                icon={faQuoteLeft}
+                className="fa-3x blue-color "
+              />
             </div>
           </div>
         </div>

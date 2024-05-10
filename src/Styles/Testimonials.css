@@ -54,4 +54,9 @@
   .testimonial-text {
     font-size: 0.9rem; /* Adjust font-size as needed for smaller screens */
   }
+
+  .carousel-control-prev,
+  .carousel-control-next {
+    visibility: hidden;
+  }
 }

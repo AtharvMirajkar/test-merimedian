@@ -1,6 +1,6 @@
 @media (max-width: 767px) {
   .count-data {
-    font-size: 12px; /* Reduce font size for count */
+    font-size: 16px; /* Reduce font size for count */
   }
 
   .count {

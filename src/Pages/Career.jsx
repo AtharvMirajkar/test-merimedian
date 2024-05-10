@@ -13,7 +13,7 @@ const Career = () => {
         <Title text="Careers" />
       </div>
 
-      <div className="container mt-5">
+      <div className="container mt-5 font-dark">
         <div className="row">
           <div className="col-lg-4 mb-4">
             <img src={careerImage} className="img-fluid w-100" alt="Career" />

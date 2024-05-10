@@ -19,7 +19,7 @@ const MissionVisionValues = () => {
           <div className="col-lg-6">
             <div className="description">
               <h3 className="mb-4 blue-color">Mission</h3>
-              <p className="mb-4">
+              <p className="mb-4 font-dark">
                 Our mission is to achieve customer satisfaction and establish
                 leadership in selected global markets by excelling in
                 technology. Our human resources will continue to be our most
@@ -30,7 +30,7 @@ const MissionVisionValues = () => {
             </div>
             <div className="description">
               <h3 className="mb-4 blue-color">Vision</h3>
-              <p className="mb-4">
+              <p className="mb-4 font-dark">
                 Our aim is to emerge as a prominent pharmaceutical firm within
                 India and extend our reach as a notable global contender by
                 2026. We endeavor to forge strategic alliances with key industry

@@ -35,7 +35,7 @@ function GeneralEnquiryForm() {
         <Title text="General Enquiry" />
       </div>
 
-      <div className="container">
+      <div className="container font-dark">
         <form onSubmit={handleSubmit}>
           <div className="row mb-4">
             <div className="col-md-4">

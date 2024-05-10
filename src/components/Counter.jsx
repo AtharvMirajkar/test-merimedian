@@ -57,7 +57,7 @@ const Counter = () => {
     <div className="counter d-flex flex-wrap blue-color">
       {/* Added flex-wrap class */}
       {counts.map((item, index) => (
-        <div className="col-6 col-sm-12 col-lg-3 mb-4 mt-4" key={index}>
+        <div className="col-6 col-md-6 col-lg-3 mb-4 mt-4" key={index}>
           <div className="count-data text-center">
             <h6 className="count h2" data-to={item.target}>
               {item.count}
